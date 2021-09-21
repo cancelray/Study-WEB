@@ -1,0 +1,175 @@
+.prepare {
+  padding: 120px 0 165px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.prepare .container .prepare-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.prepare .container .prepare-content .prepare-discr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 518px;
+}
+
+.prepare .container .prepare-content .prepare-discr h2 {
+  margin-bottom: 80px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.prepare .container .prepare-content .prepare-discr ul {
+  list-style-type: none;
+}
+
+.prepare .container .prepare-content .prepare-discr ul li {
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+.prepare .container .prepare-content .prepare-discr ul li p {
+  position: relative;
+  margin-left: 80px;
+}
+
+.prepare .container .prepare-content .prepare-discr ul li p::before {
+  content: url("../../img/main-content/list-check/check.svg");
+  position: absolute;
+  left: -80px;
+}
+
+.prepare .container .prepare-content .prepare-discr ul li .explain {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 23px;
+}
+
+.prepare .container .prepare-content .prepare-discr ul li .explain::before {
+  content: "";
+}
+
+.prepare .container .prepare-content .judge {
+  width: 488px;
+  height: 488px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 140px 68px;
+}
+
+.prepare .container .prepare-content .judge h2 {
+  color: #1939DE;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+.prepare .container .prepare-content .judge p {
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+  .prepare {
+    padding: 60px 0 58px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .prepare .container .prepare-content .prepare-discr {
+    max-width: 322px;
+  }
+  .prepare .container .prepare-content .prepare-discr h2 {
+    margin-bottom: 56px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .prepare .container .prepare-content .prepare-discr ul li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .prepare .container .prepare-content .prepare-discr ul li p {
+    margin-left: 49px;
+  }
+  .prepare .container .prepare-content .prepare-discr ul li p::before {
+    content: url("../../img/main-content/list-check/check-992px.svg");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -49px;
+  }
+  .prepare .container .prepare-content .prepare-discr ul li .explain {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+  }
+  .prepare .container .prepare-content .prepare-discr ul li .explain::before {
+    content: "";
+  }
+  .prepare .container .prepare-content .judge {
+    width: 336px;
+    height: 314px;
+    padding: 80px 60px;
+  }
+  .prepare .container .prepare-content .judge h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .prepare .container .prepare-content .judge p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .prepare {
+    padding: 40px 0 60px 0;
+  }
+  .prepare .container .prepare-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .prepare .container .prepare-content .prepare-discr h2 {
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .prepare .container .prepare-content .prepare-discr ul li {
+    font-size: 14px;
+  }
+  .prepare .container .prepare-content .prepare-discr ul li p {
+    margin-left: 43px;
+  }
+  .prepare .container .prepare-content .prepare-discr ul li p::before {
+    content: url("../../img/main-content/list-check/check-mobile.svg");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -44px;
+  }
+  .prepare .container .prepare-content .judge {
+    width: 312px;
+    height: 292px;
+    padding: 73px 47px;
+  }
+  .prepare .container .prepare-content .judge h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
