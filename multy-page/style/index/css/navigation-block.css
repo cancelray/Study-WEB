@@ -1,0 +1,242 @@
+.navigation-block {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4398f3), to(#75b1f1));
+  background: linear-gradient(180deg, #4398f3 0%, #75b1f1 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.navigation-block .navigation-menu {
+  color: #283049;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.navigation-block .navigation-menu .logo {
+  width: 100px;
+  height: 100px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.navigation-block .navigation-menu h2 {
+  margin: 50px 0 10px 0;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 30px 10px 25px 10px;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section .vso-logo {
+  width: 200px;
+  height: 45px;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section .moveom-logo {
+  width: 200px;
+  height: 45px;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section .fsin-logo {
+  max-width: 200px;
+  height: 50px;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section .fsin-logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section .fsin-logo a .logo-desc {
+  color: #3D4B66;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section .fsin-logo a .logo-desc span {
+  margin-left: 8px;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section .navigation-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 80px;
+  width: 100%;
+}
+
+.navigation-block .navigation-menu .navigation-menu-section .navigation-socials .social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1200px) {
+  .navigation-block {
+    position: fixed;
+    width: 200px;
+  }
+  .navigation-block .navigation-menu .logo {
+    width: 80px;
+    height: 80px;
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+  .navigation-block .navigation-menu h2 {
+    margin: 40px 0 10px 0;
+    font-size: 20px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section {
+    padding: 25px 8px 20px 8px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .vso-logo {
+    width: 180px;
+    height: 45px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .moveom-logo {
+    width: 180px;
+    height: 45px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .fsin-logo {
+    max-width: 180px;
+    height: 50px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .fsin-logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .fsin-logo a .logo-desc {
+    margin-left: 15px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .fsin-logo a .logo-desc span {
+    margin-left: 5px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .navigation-socials {
+    max-width: 60px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .navigation-socials .social-icon {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation-block {
+    position: fixed;
+    width: 105px;
+  }
+  .navigation-block .navigation-menu .logo {
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  .navigation-block .navigation-menu h2 {
+    margin: 35px 0 10px 0;
+    font-size: 15px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section {
+    padding: 18px 8px 18px 8px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .vso-logo {
+    width: 85px;
+    height: 30px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .moveom-logo {
+    width: 85px;
+    height: 30px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .fsin-logo {
+    max-width: 85px;
+    height: 30px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .fsin-logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .fsin-logo a .logo-desc {
+    font-size: 17px;
+    margin-left: 0px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .fsin-logo a .logo-desc span {
+    margin-left: 4px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .navigation-socials {
+    max-width: 70px;
+  }
+  .navigation-block .navigation-menu .navigation-menu-section .navigation-socials .social-icon {
+    width: 15px;
+    height: 15px;
+  }
+}
+/*# sourceMappingURL=navigation-block.css.map */

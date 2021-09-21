@@ -1,0 +1,113 @@
+.moveon-section {
+  margin-left: 250px;
+}
+
+.moveon-section .moveon-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8253D8), to(#D05DDE));
+  background: linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+  padding: 100px 0;
+}
+
+.moveon-section .moveon-link .container {
+  max-width: 1140px;
+}
+
+.moveon-section .moveon-link .container .moveon-desc h2 {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 14px;
+  line-height: 124%;
+  max-width: 560px;
+  color: white;
+}
+
+.moveon-section .moveon-link .container .moveon-desc p {
+  max-width: 560px;
+  color: white;
+}
+
+.moveon-section .moveon-link .container .moveon-link-img {
+  width: 565px;
+  padding-left: 150px;
+}
+
+.moveon-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+@media (max-width: 1200px) {
+  .moveon-section {
+    margin-left: 200px;
+  }
+  .moveon-section .moveon-link {
+    padding: 80px 0;
+  }
+  .moveon-section .moveon-link .container {
+    max-width: 990px;
+  }
+  .moveon-section .moveon-link .container .moveon-desc h2 {
+    font-size: 32px;
+    max-width: 360px;
+  }
+  .moveon-section .moveon-link .container .moveon-desc p {
+    max-width: 360px;
+  }
+  .moveon-section .moveon-link .container .moveon-link-img {
+    width: 490px;
+    padding-left: 120px;
+  }
+  .moveon-section .moveon-link .container .moveon-link:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .moveon-section {
+    margin-left: 105px;
+  }
+  .moveon-section .moveon-link {
+    padding: 50px 0;
+  }
+  .moveon-section .moveon-link .container {
+    max-width: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .moveon-section .moveon-link .container .moveon-desc {
+    margin-bottom: 15px;
+  }
+  .moveon-section .moveon-link .container .moveon-desc h2 {
+    font-size: 26px;
+    max-width: 360px;
+    text-align: center;
+  }
+  .moveon-section .moveon-link .container .moveon-desc p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .moveon-section .moveon-link .container .moveon-link-img {
+    width: 300px;
+    padding-left: 0;
+  }
+}
+/*# sourceMappingURL=moveon-section.css.map */
