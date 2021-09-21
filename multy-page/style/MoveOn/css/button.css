@@ -1,0 +1,17 @@
+.button {
+  width: 199.98px;
+  height: 53px;
+  border: 2px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+  padding: 16px 16px;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background: #FFFFFF;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=button.css.map */

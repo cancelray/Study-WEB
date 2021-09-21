@@ -1,0 +1,30 @@
+.join {
+  background: url("../../../img/MoveOn/fun-descr/elipses/attach-paperclip-symbol_icon-icons.com_73094 1.png") center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#8253D8), to(#D05DDE));
+  background: url("../../../img/MoveOn/fun-descr/elipses/attach-paperclip-symbol_icon-icons.com_73094 1.png") center no-repeat, linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+}
+
+.find {
+  background: url("../../../img/MoveOn/fun-descr/elipses/eventcalendarsymbol_79791 1.png") center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#8253D8), to(#D05DDE));
+  background: url("../../../img/MoveOn/fun-descr/elipses/eventcalendarsymbol_79791 1.png") center no-repeat, linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+}
+
+.where-to-go {
+  background: url("../../../img/MoveOn/fun-descr/elipses/1486348532-music-play-pause-control-go-arrow_80458 1.png") center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#8253D8), to(#D05DDE));
+  background: url("../../../img/MoveOn/fun-descr/elipses/1486348532-music-play-pause-control-go-arrow_80458 1.png") center no-repeat, linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+}
+
+.create {
+  background: url("../../../img/MoveOn/fun-descr/elipses/create-new-pencil-button_icon-icons.com_72791 1.png") center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#8253D8), to(#D05DDE));
+  background: url("../../../img/MoveOn/fun-descr/elipses/create-new-pencil-button_icon-icons.com_72791 1.png") center no-repeat, linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+}
+
+.marks {
+  background: url("../../../img/MoveOn/fun-descr/elipses/Group.png") center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#8253D8), to(#D05DDE));
+  background: url("../../../img/MoveOn/fun-descr/elipses/Group.png") center no-repeat, linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+}
+
+.chats {
+  background: url("../../../img/MoveOn/fun-descr/elipses/chats_circle_icon_173264 1.png") center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#8253D8), to(#D05DDE));
+  background: url("../../../img/MoveOn/fun-descr/elipses/chats_circle_icon_173264 1.png") center no-repeat, linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+}
+/*# sourceMappingURL=background-description.css.map */
